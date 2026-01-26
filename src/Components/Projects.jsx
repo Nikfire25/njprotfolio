@@ -25,6 +25,14 @@ const projects = [
     image: "/projects/MovieInfo.png",
     link: "https://movieinfobynj.netlify.app/",
   },
+  {
+    id: 4,
+    name: "ExenseTrackerByNJ",
+    description:
+      "Full-stack Expense Tracker with React + TypeScript + Redux Toolkit, featuring JWT auth, protected routes, CRUD transactions, Chart.js analytics, and deployment on Netlify + Render.",
+    image: "/projects/expensetrackerbynj.png",
+    link: "expensetrackerbynj.netlify.app",
+  },
 ];
 
 const Projects = () => {
@@ -39,7 +47,7 @@ const Projects = () => {
           Here are some of my projects. Each project was carefully crafted with
           attention to detail, performance and user experiences.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {projects.map((project, ind) => (
             <a href={project.link} target="_blank">
               <div
