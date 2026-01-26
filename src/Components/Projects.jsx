@@ -31,7 +31,7 @@ const projects = [
     description:
       "Full-stack Expense Tracker with React + TypeScript + Redux Toolkit, featuring JWT auth, protected routes, CRUD transactions, Chart.js analytics, and deployment on Netlify + Render.",
     image: "/projects/expensetrackerbynj.png",
-    link: "expensetrackerbynj.netlify.app",
+    link: "https://expensetrackerbynj.netlify.app",
   },
 ];
 
